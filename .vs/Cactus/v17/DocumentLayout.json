@@ -1,0 +1,330 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Cactus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\pages\\info.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\pages\\info.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\pages\\editpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\pages\\editpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\pages\\editpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\pages\\editpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\pages\\info.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\pages\\info.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\pages\\addpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\pages\\addpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\pages\\addpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\pages\\addpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\pages\\addvist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\pages\\addvist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\pages\\addvist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\pages\\addvist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\db\\connectionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\db\\connectionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\db\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\db\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\pages\\captha.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\pages\\captha.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\pages\\captha.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\pages\\captha.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\pages\\vistav.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\pages\\vistav.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|C:\\Users\\user\\source\\repos\\Cactus\\cactus\\pages\\vistav.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7986E3DF-5A48-4D1F-A578-DD803B67D52C}|Cactus\\Cactus.csproj|solutionrelative:cactus\\pages\\vistav.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1406283563:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\App.config",
+              "RelativeDocumentMoniker": "Cactus\\App.config",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\App.config",
+              "RelativeToolTip": "Cactus\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-27T08:33:11.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Info.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\Info.xaml.cs",
+              "RelativeDocumentMoniker": "Cactus\\Pages\\Info.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\Info.xaml.cs",
+              "RelativeToolTip": "Cactus\\Pages\\Info.xaml.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAgwE0AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T09:44:25.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\EditPage.xaml.cs",
+              "RelativeDocumentMoniker": "Cactus\\Pages\\EditPage.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\EditPage.xaml.cs",
+              "RelativeToolTip": "Cactus\\Pages\\EditPage.xaml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAA9wDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T16:51:22.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditPage.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\EditPage.xaml",
+              "RelativeDocumentMoniker": "Cactus\\Pages\\EditPage.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\EditPage.xaml",
+              "RelativeToolTip": "Cactus\\Pages\\EditPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-09T16:51:00.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Cactus\\Pages\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Cactus\\Pages\\LoginPage.xaml.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwDUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T13:29:02.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\AddPage.xaml.cs",
+              "RelativeDocumentMoniker": "Cactus\\Pages\\AddPage.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\AddPage.xaml.cs*",
+              "RelativeToolTip": "Cactus\\Pages\\AddPage.xaml.cs*",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAwEcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T08:59:38.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddPage.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\AddPage.xaml",
+              "RelativeDocumentMoniker": "Cactus\\Pages\\AddPage.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\AddPage.xaml*",
+              "RelativeToolTip": "Cactus\\Pages\\AddPage.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-06T13:28:24.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "captha.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\captha.xaml.cs",
+              "RelativeDocumentMoniker": "Cactus\\Pages\\captha.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\captha.xaml.cs",
+              "RelativeToolTip": "Cactus\\Pages\\captha.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwFMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:46:15.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Info.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\Info.xaml",
+              "RelativeDocumentMoniker": "Cactus\\Pages\\Info.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\Info.xaml",
+              "RelativeToolTip": "Cactus\\Pages\\Info.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-06T14:07:25.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddVist.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\AddVist.xaml.cs",
+              "RelativeDocumentMoniker": "Cactus\\Pages\\AddVist.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\AddVist.xaml.cs",
+              "RelativeToolTip": "Cactus\\Pages\\AddVist.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T14:00:50.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConnectionClass.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\DB\\ConnectionClass.cs",
+              "RelativeDocumentMoniker": "Cactus\\DB\\ConnectionClass.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\DB\\ConnectionClass.cs",
+              "RelativeToolTip": "Cactus\\DB\\ConnectionClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T15:59:25.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Cactus\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\MainWindow.xaml",
+              "RelativeToolTip": "Cactus\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-21T10:45:16.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddVist.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\AddVist.xaml",
+              "RelativeDocumentMoniker": "Cactus\\Pages\\AddVist.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\AddVist.xaml",
+              "RelativeToolTip": "Cactus\\Pages\\AddVist.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-23T14:00:57.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Cactus\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Cactus\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T09:36:12.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\DB\\Model1.edmx",
+              "RelativeDocumentMoniker": "Cactus\\DB\\Model1.edmx",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\DB\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Cactus\\DB\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-09-10T08:58:50.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "captha.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\captha.xaml",
+              "RelativeDocumentMoniker": "Cactus\\Pages\\captha.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\captha.xaml",
+              "RelativeToolTip": "Cactus\\Pages\\captha.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-09T18:45:02.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Vistav.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\Vistav.xaml.cs",
+              "RelativeDocumentMoniker": "Cactus\\Pages\\Vistav.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\Vistav.xaml.cs",
+              "RelativeToolTip": "Cactus\\Pages\\Vistav.xaml.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwDsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T09:41:49.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Vistav.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\Vistav.xaml",
+              "RelativeDocumentMoniker": "Cactus\\Pages\\Vistav.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\Vistav.xaml",
+              "RelativeToolTip": "Cactus\\Pages\\Vistav.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-07T09:27:36.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Cactus\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Cactus\\Cactus\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "Cactus\\Pages\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-06T13:25:23.758Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

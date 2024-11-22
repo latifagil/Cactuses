@@ -1,0 +1,43 @@
+﻿<Page x:Class="Cactus.Pages.Vistav"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Cactus.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1000"
+      Title="Vistav">
+
+    <Grid Background="#FFA9C7A9">
+        <StackPanel VerticalAlignment="Top" Margin="113,36,400,0">
+            <StackPanel Margin="0,0,0,10" Orientation="Horizontal" Width="552">
+                <TextBox x:Name="TxtSearch" TextChanged="TxtSearch_TextChanged" Width="200" Height="29" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <Button Margin="0" Background="Black" Foreground="Black" FontSize="18" Width="62" Height="29" IsEnabled="False">
+                    Поиск
+                </Button>
+                <Button x:Name="BtnDelete" Background="White" Foreground="#FF050505" FontSize="18" Width="80" Height="29" Click="BtnDelete_Click">
+                    Удалить
+                </Button>
+                <Button x:Name="BtnBack" Background="White" Foreground="#FF050505" FontSize="18" Width="80" Height="29" Click="BtnBack_Click">
+                    Назад
+                </Button>
+            </StackPanel>
+        </StackPanel>
+        <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Center" Width="900" Height="600" Margin="0,75,0,25">
+            <ListView Name="ListVistav" ScrollViewer.HorizontalScrollBarVisibility="Hidden" Margin="52,10,52,40" Background="#FFA9C7A9">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Id_vistav}" Width="20">id</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Name_vistav}" Width="100">Название</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Place}" Width="200">Место проведения</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Date}" Width="100">Дата</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Prizes}" Width="200">Призы</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Comments}" Width="150">Комментарии</GridViewColumn>
+                       
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </ScrollViewer>
+
+    </Grid>
+</Page>

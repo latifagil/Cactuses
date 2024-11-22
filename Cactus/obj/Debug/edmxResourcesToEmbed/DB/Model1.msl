@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище cactusModelContainer" CdmEntityContainer="cactusEntities">
+    <EntitySetMapping Name="Cactus">
+      <EntityTypeMapping TypeName="cactusModel.Cactusi">
+        <MappingFragment StoreEntitySet="Cactus">
+          <ScalarProperty Name="Id_cactus" ColumnName="Id_cactus" />
+          <ScalarProperty Name="Name_cactus" ColumnName="Name_cactus" />
+          <ScalarProperty Name="Where_from" ColumnName="Where_from" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Instructions" ColumnName="Instructions" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Id_vid" ColumnName="Id_vid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cactus_Vistavka">
+      <EntityTypeMapping TypeName="cactusModel.Cactus_Vistavka">
+        <MappingFragment StoreEntitySet="Cactus_Vistavka">
+          <ScalarProperty Name="Id_vistavka" ColumnName="Id_vistavka" />
+          <ScalarProperty Name="Id_cactus" ColumnName="Id_cactus" />
+          <ScalarProperty Name="Id_vistav" ColumnName="Id_vistav" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Login">
+      <EntityTypeMapping TypeName="cactusModel.Login">
+        <MappingFragment StoreEntitySet="Login">
+          <ScalarProperty Name="Id_login" ColumnName="Id_login" />
+          <ScalarProperty Name="Login1" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Id_user" ColumnName="Id_user" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Role">
+      <EntityTypeMapping TypeName="cactusModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="Id_role" ColumnName="Id_role" />
+          <ScalarProperty Name="Name_role" ColumnName="Name_role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="cactusModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Id_user" ColumnName="Id_user" />
+          <ScalarProperty Name="Name_user" ColumnName="Name_user" />
+          <ScalarProperty Name="Id_role" ColumnName="Id_role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vid">
+      <EntityTypeMapping TypeName="cactusModel.Vid">
+        <MappingFragment StoreEntitySet="Vid">
+          <ScalarProperty Name="Id_vid" ColumnName="Id_vid" />
+          <ScalarProperty Name="Name_vid" ColumnName="Name_vid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vistavka">
+      <EntityTypeMapping TypeName="cactusModel.Vistavka">
+        <MappingFragment StoreEntitySet="Vistavka">
+          <ScalarProperty Name="Id_vistav" ColumnName="Id_vistav" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Place" ColumnName="Place" />
+          <ScalarProperty Name="Prizes" ColumnName="Prizes" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="Name_vistav" ColumnName="Name_vistav" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="cactusModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Cactusi">
+    <Key>
+      <PropertyRef Name="Id_cactus" />
+    </Key>
+    <Property Name="Id_cactus" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name_cactus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Where_from" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Age" Type="Int32" />
+    <Property Name="Price" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="Instructions" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Id_vid" Type="Int32" />
+    <NavigationProperty Name="Vid" Relationship="Self.FK_Cactus_Vid" FromRole="Cactus" ToRole="Vid" />
+    <NavigationProperty Name="Cactus_Vistavka" Relationship="Self.FK_Cactus_Vistavka_Cactus" FromRole="Cactus" ToRole="Cactus_Vistavka" />
+  </EntityType>
+  <EntityType Name="Cactus_Vistavka">
+    <Key>
+      <PropertyRef Name="Id_vistavka" />
+    </Key>
+    <Property Name="Id_vistavka" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Id_cactus" Type="Int32" />
+    <Property Name="Id_vistav" Type="Int32" />
+    <NavigationProperty Name="Cactus" Relationship="Self.FK_Cactus_Vistavka_Cactus" FromRole="Cactus_Vistavka" ToRole="Cactus" />
+    <NavigationProperty Name="Vistavka" Relationship="Self.FK_Cactus_Vistavka_Vistavka" FromRole="Cactus_Vistavka" ToRole="Vistavka" />
+  </EntityType>
+  <EntityType Name="Login">
+    <Key>
+      <PropertyRef Name="Id_login" />
+    </Key>
+    <Property Name="Id_login" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Id_user" Type="Int32" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Login_Users" FromRole="Login" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id_role" />
+    </Key>
+    <Property Name="Id_role" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name_role" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Users_Role" FromRole="Role" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id_user" />
+    </Key>
+    <Property Name="Id_user" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name_user" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Id_role" Type="Int32" />
+    <NavigationProperty Name="Login" Relationship="Self.FK_Login_Users" FromRole="Users" ToRole="Login" />
+    <NavigationProperty Name="Role" Relationship="Self.FK_Users_Role" FromRole="Users" ToRole="Role" />
+  </EntityType>
+  <EntityType Name="Vid">
+    <Key>
+      <PropertyRef Name="Id_vid" />
+    </Key>
+    <Property Name="Id_vid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name_vid" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Cactus" Relationship="Self.FK_Cactus_Vid" FromRole="Vid" ToRole="Cactus" />
+  </EntityType>
+  <EntityType Name="Vistavka">
+    <Key>
+      <PropertyRef Name="Id_vistav" />
+    </Key>
+    <Property Name="Id_vistav" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Place" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Prizes" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Comments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Name_vistav" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Cactus_Vistavka" Relationship="Self.FK_Cactus_Vistavka_Vistavka" FromRole="Vistavka" ToRole="Cactus_Vistavka" />
+  </EntityType>
+  <Association Name="FK_Cactus_Vid">
+    <End Role="Vid" Type="Self.Vid" Multiplicity="0..1" />
+    <End Role="Cactus" Type="cactusModel.Cactusi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vid">
+        <PropertyRef Name="Id_vid" />
+      </Principal>
+      <Dependent Role="Cactus">
+        <PropertyRef Name="Id_vid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cactus_Vistavka_Cactus">
+    <End Role="Cactus" Type="cactusModel.Cactusi" Multiplicity="0..1" />
+    <End Role="Cactus_Vistavka" Type="Self.Cactus_Vistavka" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cactus">
+        <PropertyRef Name="Id_cactus" />
+      </Principal>
+      <Dependent Role="Cactus_Vistavka">
+        <PropertyRef Name="Id_cactus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cactus_Vistavka_Vistavka">
+    <End Role="Vistavka" Type="Self.Vistavka" Multiplicity="0..1" />
+    <End Role="Cactus_Vistavka" Type="Self.Cactus_Vistavka" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vistavka">
+        <PropertyRef Name="Id_vistav" />
+      </Principal>
+      <Dependent Role="Cactus_Vistavka">
+        <PropertyRef Name="Id_vistav" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Login_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Login" Type="Self.Login" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id_user" />
+      </Principal>
+      <Dependent Role="Login">
+        <PropertyRef Name="Id_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_Role">
+    <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Id_role" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="Id_role" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="cactusEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cactus" EntityType="cactusModel.Cactusi" />
+    <EntitySet Name="Cactus_Vistavka" EntityType="Self.Cactus_Vistavka" />
+    <EntitySet Name="Login" EntityType="Self.Login" />
+    <EntitySet Name="Role" EntityType="Self.Role" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <EntitySet Name="Vid" EntityType="Self.Vid" />
+    <EntitySet Name="Vistavka" EntityType="Self.Vistavka" />
+    <AssociationSet Name="FK_Cactus_Vid" Association="Self.FK_Cactus_Vid">
+      <End Role="Vid" EntitySet="Vid" />
+      <End Role="Cactus" EntitySet="Cactus" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cactus_Vistavka_Cactus" Association="Self.FK_Cactus_Vistavka_Cactus">
+      <End Role="Cactus" EntitySet="Cactus" />
+      <End Role="Cactus_Vistavka" EntitySet="Cactus_Vistavka" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cactus_Vistavka_Vistavka" Association="Self.FK_Cactus_Vistavka_Vistavka">
+      <End Role="Vistavka" EntitySet="Vistavka" />
+      <End Role="Cactus_Vistavka" EntitySet="Cactus_Vistavka" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Login_Users" Association="Self.FK_Login_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Login" EntitySet="Login" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_Role" Association="Self.FK_Users_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
